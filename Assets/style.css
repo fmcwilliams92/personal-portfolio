@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    
+}
+
+/* background image */
+.back-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+}
