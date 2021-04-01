@@ -30,14 +30,30 @@ header a {
 
 header nav {
     margin: 7px;
+    border: 3px solid yellow;
+    width: 50%;
 }
 
 nav ul {
     text-decoration: none;
+    width: 100%;
     color: red;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     list-style: none;
+    border: 3px solid blue;
+
+}
+
+header nav ul li {
+    width: 25%;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 header nav ul li a:hover {
@@ -68,7 +84,9 @@ footer div {
 
 /* background image */
 .back-image {
-    background-image: url("./images/maxresdefault.jpg");
+    background-image:
+        linear-gradient(to bottom, rgba(0,0,0,1), transparent),
+        url("./images/maxresdefault.jpg");
     background-size: cover;
     background-position: center;
     justify-content: center;
