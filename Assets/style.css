@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -29,21 +29,17 @@ header a {
 }
 
 header nav {
-    margin: 7px;
-    border: 3px solid yellow;
-    width: 50%;
+    margin: 5px;
+    width: 60%;
 }
 
 nav ul {
     text-decoration: none;
     width: 100%;
-    color: red;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     list-style: none;
-    border: 3px solid blue;
-
 }
 
 header nav ul li {
@@ -93,4 +89,27 @@ footer div {
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
+}
+
+.middle {
+    color: white;
+}
+
+.titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titles {
+    border: 2px solid white;
+    width: 25%;
+}
+
+article {
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width 50%;
 }
