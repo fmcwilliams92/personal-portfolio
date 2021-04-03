@@ -39,7 +39,6 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    list-style: none;
 }
 
 header nav a {
@@ -58,26 +57,6 @@ header nav a:hover {
     background: white;
     color: black;
     text-shadow: none;
-}
-
-/* footer */
-footer {
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-footer h2 {
-    font-size: 30px;
-    margin: 0;
-    color: white;
-}
-
-footer div {
-    text-align: right;
-    color: white;
 }
 
 /* images */
@@ -155,4 +134,43 @@ footer div {
     flex-direction: row;
     align-items: stretch;
 }
+
+/* footer */
+
+#contact > h2 {
+    text-align: right;
+    border-right: 2px solid orange;
+    padding-left: 8%;
+}
+
+#contact {
+    width: 100%;
+    padding: 5px 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#contact > nav {
+    flex: 0 0 75%;
+}
+
+#contact {
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact > nav > a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    border-bottom: 4px solid white;
+}
+
 
