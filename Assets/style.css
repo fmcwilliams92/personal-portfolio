@@ -25,15 +25,15 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header nav {
     margin: 5px;
-    width: 60%;
+    width: 50%;
 }
 
-nav ul {
+nav {
     text-decoration: none;
     width: 100%;
     display: flex;
@@ -42,19 +42,21 @@ nav ul {
     list-style: none;
 }
 
-header nav ul li {
+header nav a {
     width: 25%;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
 }
 
-header nav ul li a {
+.links {
     color: white;
     font-size: 20px;
     font-weight: 800;
 }
 
-header nav ul li a:hover {
-    background: yellow;
-    color: green;
+header nav a:hover {
+    background: white;
+    color: black;
     text-shadow: none;
 }
 
@@ -70,16 +72,16 @@ footer {
 footer h2 {
     font-size: 30px;
     margin: 0;
-    color: blue;
+    color: white;
 }
 
 footer div {
     text-align: right;
-    color: blue;
+    color: white;
 }
 
-/* background image */
-.back-image {
+/* images */
+#back-image {
     background-image:
         linear-gradient(to bottom, rgba(0,0,0,1), transparent),
         url("./images/maxresdefault.jpg");
@@ -91,26 +93,66 @@ footer div {
     background-attachment: fixed;
 }
 
-.middle {
+#port-image {
+    height: 40%;
+    width: 100%;
+    border: 2px solid white;
+    text-align: end;
     color: white;
+    background-color: orange;
 }
 
-.titles {
+/* about me section */
+#about-me > h2 {
+    text-align: right;
+    border-right: 2px solid orange;
+    padding-left: 8%;
+}
+
+#about-me > article {
+    flex: 0 0 75%;
+}
+
+#about-me p {
+    font-size: 20px;
+}
+
+#about-me {
+    width: 100%;
+    padding: 5px 0;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
 }
 
-.titles {
-    border: 2px solid white;
-    width: 25%;
+/* work */
+#work > h2 {
+    text-align: right;
+    border-right: 2px solid orange;
+    padding-left: 8%;
 }
 
-article {
-    float: right;
-    border: 2px solid white;
+#work > div {
+    background-color: lightblue;
+    height: 100%;
+}
+
+#work > div {
+    flex: 0 0 75%;
+    background-color: lightgreen;
+}
+
+#work {
+    width: 100%;
+    padding: 5px 0;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width 50%;
+    flex-direction: row;
+    align-items: stretch;
 }
+

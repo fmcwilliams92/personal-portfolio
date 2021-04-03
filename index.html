@@ -8,84 +8,52 @@
         <link rel="stylesheet" href="./Assets/style.css" />
     </head>
 
-    <body class="back-image">
+    <body id="back-image">
         <!-- navigation -->
         <header>
-            <div>
-                <h1>Fred McWilliams</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-Me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                </ul>
+            <h1>Fred McWilliams</h1>
+            <nav class="links">
+                <a href="#about-me">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact Me</a>
+                <a href="#resume">Resume</a>
             </nav>
         </header>
+
+        <div id="port-image">
+            <h1>My Portfolio</h1>
+        </div>
+
         <!-- about me -->
-        <main class="middle">
-            <section class="about-me">
-                <div class="titles">
-                    <h2>About Me</h2>
-                </div>
+        <main>
+            <section id="about-me">
+                <h2>About Me</h2>
                 <article>
                     <p>
-                        words
+                        I'm a 28 year old Systems Specialist, currently working for an HOA Management company. I am working towards a Web Development Certification through the UT Bootcamp
+                        in the hopes of moving into a more back end roll as a developer. I enjoy building computers, gaming and the outdoors and live in the beaitiful city of Austin, Texas.
                     </p>
                 </article>
             </section>
 
             <!-- project information -->
-            <section class="work">
-                <div class="titles">
-                    <h2>Work</h2>
+            <section id="work">
+                <h2>Work</h2>
+                <div class="flexContainer">
+                    <a href="https://fmcwilliams92.github.io/run-buddy/" class="workProjects runBuddy">Run Buddy</a>
                 </div>
-                <article>
-                    <p class="content">
-                        words
-                    </p>
-                </article>
             </section>
 
-            <!-- contact information -->
-            <section class="contact">
-                <div class="titles">
-                    <h2>Contact Me</h2>
-                </div>
+            <!-- footer/contact information -->
+            <footer id="contact">
+                <h2>Contact Me</h2>
                 <article>
                     <p>
                         words
                     </p>
                 </article>
-            </section>
-
-            <!-- resume -->
-            <section class="resume">
-                <div class="titles">
-                    <h2>Resume</h2>
-                </div>
-                <article>
-                    <p>
-                        words
-                    </p>
-                </article>
-            </section>
+            </footer>
         </main>
-        <!-- footer -->
-        <footer>
-            <h2>Fredric McWilliams</h2>
-            <div>
-                &copy; fmcwilliams, Inc
-            </div>
-        </footer>
+
     </body>
 </html>
