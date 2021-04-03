@@ -44,7 +44,7 @@ nav {
 header nav a {
     width: 25%;
     text-align: center;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px;
 }
 
 .links {
@@ -73,7 +73,7 @@ header nav a:hover {
 }
 
 #port-image {
-    height: 40%;
+    height: 50%;
     width: 100%;
     border: 2px solid white;
     text-align: end;
@@ -169,8 +169,13 @@ header nav a:hover {
 #contact > nav > a {
     color: white;
     font-size: large;
-    text-decoration: none;
-    border-bottom: 4px solid white;
+}
+
+#contact > nav > a:hover {
+    background: white;
+    color: black;
+    border-radius: 5px 5px;
+    font-size: large;
 }
 
 /* media queries */
