@@ -134,8 +134,34 @@ header nav a:hover {
     align-items: stretch;
 }
 
-#work >  {
+.flexContainer {
+    margin: 3px 3px;
+    padding: 2px 2px;
+    height: 800px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.workFlex {
+    margin: 2px 2px;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5px 5px;
+}
+
+.runBuddy {
+    padding: 10px;
     background-image: url(./images/hero-bg.jpg);
+}
+
+.faceBook {
+    padding: 10px;
+    background-image: url(./images/MAmPaLt.jpeg);
 }
 
 /* footer */
