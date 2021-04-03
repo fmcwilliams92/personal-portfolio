@@ -115,13 +115,12 @@ header nav a:hover {
 }
 
 #work > div {
-    background-color: lightblue;
     height: 100%;
 }
 
 #work > div {
     flex: 0 0 75%;
-    background-color: lightgreen;
+    border: 2px solid green;
 }
 
 #work {
@@ -133,6 +132,10 @@ header nav a:hover {
     justify-content: space-between;
     flex-direction: row;
     align-items: stretch;
+}
+
+#work >  {
+    background-image: url(./images/hero-bg.jpg);
 }
 
 /* footer */
