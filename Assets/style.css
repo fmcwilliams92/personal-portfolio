@@ -120,7 +120,6 @@ header nav a:hover {
 
 #work > div {
     flex: 0 0 75%;
-    border: 2px solid green;
 }
 
 #work {
@@ -146,22 +145,24 @@ header nav a:hover {
 
 .workFlex {
     margin: 2px 2px;
-    height: 400px;
-    width: 100%;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     padding: 5px 5px;
+    align-items: flex-start;
+    border: 2px solid white;
 }
 
 .runBuddy {
-    padding: 10px;
     background-image: url(./images/hero-bg.jpg);
+    height: 400px;
+    width: 100%;
 }
 
 .faceBook {
-    padding: 10px;
     background-image: url(./images/MAmPaLt.jpeg);
+    height: 200px;
+    width: 50%;
 }
 
 /* footer */
