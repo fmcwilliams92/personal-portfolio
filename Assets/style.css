@@ -145,12 +145,14 @@ header nav a:hover {
 
 .workFlex {
     margin: 2px 2px;
-    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     padding: 5px 5px;
     align-items: flex-start;
     border: 2px solid white;
+    border-radius: 8px;
 }
 
 .runBuddy {
@@ -162,7 +164,13 @@ header nav a:hover {
 .faceBook {
     background-image: url(./images/MAmPaLt.jpeg);
     height: 200px;
-    width: 50%;
+    width: 49%;
+}
+
+.roboGladiators {
+    background-image: url(./images/roboWars.jpeg);
+    height: 200px;
+    width: 49%;
 }
 
 /* footer */
@@ -207,7 +215,6 @@ header nav a:hover {
     font-size: large;
 }
 
-/* media queries */
 /* media queries for small desktop screens and smaller devices*/
 @media screen and (max-width: 980px) {
     header {
@@ -236,82 +243,7 @@ header nav a:hover {
         width: 100%;
     }
 
-    .hero-cta, .hero-form {
-        width: 100%;
-    }
-
-    .hero-cta {
-        text-align: center;
-    }
-
-    .section-title {
-        width: 80%;
-    }
-
-    .trainer {
-        flex: 0 70%;
-    }
-
-    .contact-info iframe {
-        flex: 1 100%;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    section {
-        padding: 30px 15px;
-    }
 
-    .step h3 {
-        flex: 1 100%;
-        text-align: center;
-    }
-
-    .step-info {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .step-img {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .ste-txt {
-        flex: 100%;
-    }
-}
-
+    
 @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
-
-    .section-title {
-        width: 95%;
-    }
-    
-    .intro p {
-        width: 100%;
-    }
-    
-    .trainer {
-        flex: 0 100%;
-    }
-    
-    .contact-info {
-        text-align: center;
-    }
-    
-    .contact-info > * {
-        flex: 0 100%;
-    }
-
-    .contact-form {
-        order: 3;
-    }
-}
-
