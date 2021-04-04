@@ -146,7 +146,6 @@ header nav a:hover {
 .workFlex {
     margin: 2px 2px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     padding: 5px 5px;
@@ -218,7 +217,6 @@ header nav a:hover {
 /* media queries for small desktop screens and smaller devices*/
 @media screen and (max-width: 980px) {
     header {
-        padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
@@ -244,6 +242,11 @@ header nav a:hover {
     }
 
 @media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+        position: relative;
+    }
+
 
     
 @media screen and (max-width: 575px) {
