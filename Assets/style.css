@@ -85,10 +85,10 @@ header nav a:hover {
 #port-image {
     height: 50%;
     width: 100%;
-    border: 2px solid white;
     text-align: end;
     color: white;
-    background-color: orange;
+    text-align: center;
+    border-bottom: 2px solid orange;
 }
 
 /* about me section */
