@@ -1,11 +1,17 @@
-* {
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
+:root {
+    --primary-color: white;
+    --secondary-color: orange;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -23,7 +29,7 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -31,7 +37,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
 }
 
 header nav {
@@ -54,13 +60,13 @@ header nav a {
 }
 
 .links {
-    color: white;
+    color: var(--primary-color);
     font-size: 20px;
     font-weight: 800;
 }
 
 header nav a:hover {
-    background: white;
+    background: var(--primary-color);
     color: black;
     text-shadow: none;
 }
@@ -86,15 +92,15 @@ header nav a:hover {
     height: 50%;
     width: 100%;
     text-align: end;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 /* about me section */
 #about-me > .one-qtr > h2 {
     text-align: right;
-    border-right: 2px solid orange;
+    border-right: 2px solid var(--secondary-color);
 }
 
 #about-me > article {
@@ -108,7 +114,7 @@ header nav a:hover {
 #about-me {
     width: 100%;
     padding: 5px 0;
-    color: white;
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -119,7 +125,7 @@ header nav a:hover {
 /* work */
 #work > .one-qtr > h2 {
     text-align: right;
-    border-right: 2px solid orange;
+    border-right: 2px solid var(--secondary-color);
     line-height: 10;
 }
 
@@ -130,7 +136,7 @@ header nav a:hover {
 #work {
     width: 100%;
     padding: 5px 0;
-    color: white;
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -146,7 +152,6 @@ header nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 2px solid white;
 }
 
 .workFlex {
@@ -156,7 +161,7 @@ header nav a:hover {
     background-size: cover;
     padding: 5px 5px;
     align-items: flex-start;
-    border: 2px solid white;
+    border: 2px solid var(--primary-color);
     border-radius: 8px;
 }
 
@@ -182,13 +187,13 @@ header nav a:hover {
 /* footer */
 #contact > .one-qtr > h2 {
     text-align: right;
-    border-right: 2px solid orange;
+    border-right: 2px solid var(--secondary-color);
     flex: 0 0 25%;
 }
 
 #contact {
     width: 100%;
-    color: white;
+    color: var(--primary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -202,12 +207,12 @@ header nav a:hover {
 }
 
 #contact > nav > a {
-    color: white;
+    color: var(--primary-color);
     font-size: large;
 }
 
 #contact > nav > a:hover {
-    background: white;
+    background: var(--primary-color);
     color: black;
     border-radius: 5px 5px;
     font-size: large;
