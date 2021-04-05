@@ -163,6 +163,12 @@ header nav a:hover {
     align-items: flex-start;
     border: 2px solid var(--primary-color);
     border-radius: 8px;
+    opacity:0.5
+}
+
+.workFlex:hover{
+    opacity: 1;
+    transition: opacity 250ms linear;
 }
 
 .runBuddy {
